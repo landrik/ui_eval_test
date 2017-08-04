@@ -1,0 +1,32 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - utilities
+// global extends, mixins, functions, and utility classes
+
+// - - - - - - - - - - - - - - - - - - -
+// - - extends
+
+// - - - - - - - - - - - - - - - - - - -
+// - - mixins
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+
+// - - - - - - - - - - - - - - - - - - -
+// - - functions
+
+// - - - - - - - - - - - - - - - - - - -
+// - - utilities

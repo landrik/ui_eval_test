@@ -1,0 +1,19 @@
+{
+  "name": "ui_dev_eval_test",
+  "version": "1.0.0",
+  "description": "UI Developer Evaluation Test",
+  "author": "Landry Karege",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^3.13.1",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "build-css": "./assets/bin/build-css",
+    "watch-css": "./assets/bin/watch-css"
+  },
+  "main": "index.html",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
+}

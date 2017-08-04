@@ -1,0 +1,20 @@
+// - - - - - - - - - - - - - - - - - - -
+// - - settings
+// global maps and variables
+$brand-color: #83A5B2 !default;
+$text-color: #ffffff !default;
+$footer-text: #636363 !default;
+$text-font-stack: 'Montserrat', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$list-separator:1px solid $brand-color;
+
+$max-width: 760px !default;
+
+$sprite: '../imgs/sprites.png' !default;
+
+
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
