@@ -17,7 +17,7 @@ $(document).ready(function(){
 
   $.getJSON('assets/js/menu.json', function(data){
     //console.log(data);
-    var $menu = $('#menu');
+    var menu = $('#menu');
     $.each(data.menu, function(i, item){
         var li = $("<li id=" + item.id + " class=" + item.cssClass + ">" + item.description + "</li>");
         if(item.menu !== null){
