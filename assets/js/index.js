@@ -23,7 +23,7 @@ $(document).ready(function(){
         if(item.menu !== null){
           var ul = $("<ul class='submenu' />");
           $.each(item.menu, function(i, menu){
-            var li = $("<li>" + menu.id + "</li>")
+            var li = $("<li id=" + menu.id + " class=" + menu.cssClass + ">" + menu.id + "</li>")
             ul.append(li);
             li.on('click', function(){
               if(menu.leaf === true){
